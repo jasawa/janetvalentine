@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Valentine's Day</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gothic+A1|Roboto+Condensed:300" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+	
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--<script src="main.js"></script> -->
+</head>
+
+<style>
+    body {
+        background-image: url("images/christmastrees.png");
+        /*background-color: gold;*/
+    }
+
+    /*h4 {
+        color: blue;
+    }*/
+
+    #telephone {
+        border-radius: 40px;
+        background-color: green;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding: 10px 0px 10px 0px;
+        color:mintcream;
+    }
+    #buttons {
+        text-align: center;
+    }
+    #mybutton {
+        box-shadow: 3px 5px darkgoldenrod;
+    }
+
+</style>
+
+
+<body>
+    <!--<div class="container bg-success p-5">
+    </div>-->
+    <div class="container-fluid bg-danger p-5 mt-5">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <div class="animated infinite pulse card-body">
+                        <h3 class="text-center">Happy Valentine's Day!!!</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                
+            </div>
+            <div class="col-sm">
+                <div class="animated zoomInDown slower delay-1s">
+                    <div id="telephone">
+                        <h1 class="text-center">Connor</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid bg-success p-5">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <div class="animated infinite jello slower card-body" id="testCase">
+                        <h3 class="text-center">Merry Merry Christmas!!!</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                
+            </div>
+            <div class="col-sm">
+                <div class="card animated zoomInDown slower delay-3s" id="cardCard">
+                    <div class="card-body rounded-circle text-white bg-danger p-5">
+                        <h1 class="text-center">Rory</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!--  Add button to test -->
+<div class="container-fluid bg-danger p-5 mb-5 mt-5">
+    <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm animated fadeInDownBig slow delay-5s" id="buttons">
+            <!--<button id="mySubmitButton1" type="submit" class="btn btn-success">Connor Ready!</button>
+            <button id="mySubmitButton2" type="submit" class="btn btn-success">Rory Set!</button>-->
+            <a href="https://www.vans.com/custom-shoes.html" target="_blank" class="btn btn-warning text-center" id="mybutton"><h4>Click this button to see your present!</h4></a>
+        </div>
+        <div class="col-sm"></div>
+    </div>
+</div>
+<!--<div class="container bg-success p-5">
+</div>-->
+
+
+<!-- The javascript below is commented out because it is not needed since buttons above are commented out 
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script>
+            $(function () {
+                // This is the click function  When "submit" button is clicked, then containerOne animates
+                $("#mySubmitButton1").on("click", function() {
+                    animate("#telephone", "zoomOutRight");
+                    return false;
+                })
+
+                // This is the animate function Note: these are my variables and function name
+                // add animated and animationType to the class
+                function animate(element, animationType) {
+                   $(element).addClass("animated " + animationType);
+                    // after 5 seconds remove the class animated and animationType
+                    var weWait = setTimeout(function() {
+                        $(element).removeClass("animated " + animationType);
+                    }, 5000);
+                }
+
+            })
+
+            $(function () {
+                // This is the click function  When "submit" button is clicked, then containerOne animates
+                $("#mySubmitButton2").on("click", function() {
+                    animate("#cardCard", "zoomOutRight");
+                    return false;
+                })
+
+                // This is the animate function Note: these are my variables and function name
+                // add animated and animationType to the class
+                function animate(element, animationType) {
+                   $(element).addClass("animated " + animationType);
+                    // after 5 seconds remove the class animated and animationType
+                    var weWait = setTimeout(function() {
+                        $(element).removeClass("animated " + animationType);
+                    }, 5000);
+                }
+
+            })
+
+        </script>
+-->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+
+    
+</body>
+</html>
